@@ -2,7 +2,7 @@ package com.company.순열_조합;
 
 import java.util.Scanner;
 
-public class Baekjoon_10972 {
+public class Baekjoon_10973 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -31,10 +31,10 @@ public class Baekjoon_10972 {
         int j = 0;
         int k = l;
 
-        // j > 0 이면서 a[j] > a[j-1]를 만족하는 가장 큰 j 찾기
+        // a[j] < a[j-1]를 만족하는 가장 큰 j 찾기
         for (int i = 1; i <= l; i++) {
             if (a[i-1] <= a[i]) {
-               j = i;
+                j = i;
             }
         }
 
@@ -43,17 +43,17 @@ public class Baekjoon_10972 {
             return false;
         }
 
-        // a[j-1] < a[k]를 만족하는 가장 큰 k 찾기
+        // k >= j 이면서 a[j-1] < a[k]를 만족하는 가장 큰 k 찾기
         for (int i = j; i <= l; i++){
             if (a[i] > a[j-1]) {
-               k = i;
+                k = i;
             }
         }
 
         // a[j-1]과 a[k]를 swap
         swap(a,j-1, k);
 
-        // a[j]부터 순열 뒤집기 (내림차순 -> 오름차순)
+        // a[j]부터 순열을 뒤집기 (내림차순 -> 오름차순)
         for (int i = j; i < l; i++, l--) {
             swap(a, i, l);
         }
