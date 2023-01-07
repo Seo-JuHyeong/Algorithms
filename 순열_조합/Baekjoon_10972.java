@@ -58,6 +58,6 @@ public class Baekjoon_10972 {
             swap(a, i, l);
         }
 
-        return true;
+        return true; 
     }
 }
