@@ -33,7 +33,7 @@ public class Baekjoon_10973 {
 
         // a[j] < a[j-1]를 만족하는 가장 큰 j 찾기
         for (int i = 1; i <= l; i++) {
-            if (a[i-1] >= a[i]) {
+            if (a[i-1] > a[i]) {
                 j = i;
             }
         }
