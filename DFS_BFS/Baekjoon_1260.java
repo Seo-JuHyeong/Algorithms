@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Backjoon_1260 {
+public class Baekjoon_1260 {
     static int[][] map;
     static boolean[] visit;
     static int N;
