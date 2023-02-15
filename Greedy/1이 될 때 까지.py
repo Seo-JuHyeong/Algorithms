@@ -31,7 +31,7 @@ while True:
         break
     # K로 나누기
     result += 1
-    n //=k
+    n //= k
 
 # 마지막으로 남은 수에 대하여 1씩 빼기
 result += (n - 1)
