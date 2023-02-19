@@ -28,7 +28,7 @@ def turn_left():
 count = 1
 turn_time = 0
 while True:
-    # 왼쪽으로 회줜
+    # 왼쪽으로 회전
     turn_left()
     nx = x + dx[direction]
     ny = y + dy[direction]
