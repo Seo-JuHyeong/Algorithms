@@ -23,4 +23,4 @@ print(rotate_a_matrix_by_90_degree(a))
 #    [10, 6, 2],
 #    [11, 7, 3],
 #    [12, 8, 4]
-# ]
+# ] 
