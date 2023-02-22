@@ -1,4 +1,5 @@
 # 순차 탐색 소스코드 구현
+# 시간 복잡도 : O(N)
 def sequential_search(n, target, array):
     # 각 원소를 하나씩 확인하며
     for i in range(n):
