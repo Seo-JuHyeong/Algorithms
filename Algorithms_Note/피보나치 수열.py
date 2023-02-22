@@ -15,7 +15,7 @@ def fibo(x):
     d[x] = fibo(x - 1) + fibo(x - 2)
     return d[x]
 
-print(fibo(99))
+print(fibo(99))  # 결과 -> 218922995834555169026
 
 
 # 피보나치 수열 소스코드 (반복적, 보텀업)
@@ -31,4 +31,4 @@ n = 99
 for i in range(3, n + 1):
     d[i] = d[i - 1] + d[i - 2]
 
-print(d[n])
+print(d[n])  # 결과 -> 218922995834555169026
