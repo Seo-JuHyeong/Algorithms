@@ -17,3 +17,12 @@ array = input().split()
 
 # 순차 탐색 수행 결과 출력
 print(sequential_search(n, target, array))
+
+# 사용 예시
+
+# 입력
+# 5 Juhyeong
+# Hanul Jonggu Juhyeong Taeil Sangwook
+
+# 결과
+# 3
