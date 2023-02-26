@@ -38,7 +38,7 @@ for a in range(1, n + 1):
         else:
             print(graph[a][b], end=" ")
     print()
-
+    
 # 사용 예시
 # 입력
 # 4
@@ -55,4 +55,4 @@ for a in range(1, n + 1):
 # 0 4 8 6
 # 3 0 7 9
 # 5 9 0 4
-# 7 11 2 0 
+# 7 11 2 0
