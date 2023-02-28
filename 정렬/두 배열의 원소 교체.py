@@ -14,4 +14,4 @@ for i in range(k):
     else: # A의 원소가 B의 원소보다 크거나 같을 때, 반복문을 탈출
         break
 
-print(sum(a)) # 배열 A의 모든 원소의 합을 출력
+print(sum(a)) # 배열 A의 모든 원소의 합을 출력 
