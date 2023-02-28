@@ -38,4 +38,4 @@ def bfs(x, y):
     return graph[n - 1][m - 1]
 
 # BFS를 수행한 결과 출력
-print(bfs(0, 0)) 
+print(bfs(0, 0))
