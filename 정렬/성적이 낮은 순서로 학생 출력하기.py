@@ -13,4 +13,4 @@ array = sorted(array, key=lambda student: student[1])
 
 # 정렬이 수행된 결과를 출력
 for student in array:
-    print(student[0], end=' ')
+    print(student[0], end=' ') 
