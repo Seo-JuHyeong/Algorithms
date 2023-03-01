@@ -35,7 +35,6 @@ for i in range(m):
         else:
             print('NO')
 
-# 사용 예시
 # 입력
 # 7 8
 # 0 1 3
