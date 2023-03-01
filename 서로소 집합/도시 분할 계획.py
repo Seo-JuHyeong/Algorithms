@@ -49,7 +49,6 @@ for edge in edges:
 
 print(result - last)
 
-# 사용 예시
 # 입력
 # 7 12
 # 1 2 3
