@@ -1,4 +1,4 @@
-#
+# 핵심 : 화폐 단위가 작은 순서대로 동전을 확인하며, 현재 확인하는 동전을 이용해 target 금액 또한 만들 수 있는지 확인
 N = int(input())
 data = list(map(int, input().split()))
 data.sort()
