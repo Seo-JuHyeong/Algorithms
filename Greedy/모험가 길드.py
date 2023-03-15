@@ -1,4 +1,4 @@
-# 핵심 : 오름차순 정렬
+# 핵심 : 오름차순 정렬을 통해 항상 최소한의 모험가의 수만 포함하여 그룹을 결성 -> 최대한 많은 그룹이 구성되는 방법
 n = int(input())
 data = list(map(int, input().split()))
 data.sort()
