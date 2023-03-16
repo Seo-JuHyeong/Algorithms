@@ -1,3 +1,4 @@
+# 핵심 : 모든 음식을 시간을 기준으로 정렬한 뒤에, 시간이 적게 걸리는 음식부터 제거해 나가는 방식 이용 (우선순위 큐)
 import heapq
 
 def solution(food_times, k):
