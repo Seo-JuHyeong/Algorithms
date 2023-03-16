@@ -21,3 +21,9 @@ for i in range(len(data) - 1):
             count1 += 1
 
 print(min(count0, count1))
+
+# 입력
+# 0001100
+
+# 출력
+# 1
