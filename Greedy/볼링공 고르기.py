@@ -17,3 +17,10 @@ for i in range(1, m + 1):
     result += array[i] * n # B가 선택하는 경우의 수와 곱하기
 
 print(result)
+
+# 입력
+# 5 3
+# 1 3 2 3 2
+
+# 출력
+# 8
