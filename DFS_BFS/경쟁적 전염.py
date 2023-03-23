@@ -43,4 +43,13 @@ while q:
                 graph[nx][ny] = virus
                 q.append((virus, s + 1, nx, ny))
 
-print(graph[target_x - 1][target_y - 1]) 
+print(graph[target_x - 1][target_y - 1])
+
+# 입력
+# 3 3
+# 0 0 0
+# 3 0 0
+# 1 2 2
+
+# 출력
+# 3
