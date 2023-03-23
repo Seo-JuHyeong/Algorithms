@@ -43,4 +43,4 @@ while q:
                 graph[nx][ny] = virus
                 q.append((virus, s + 1, nx, ny))
 
-print(graph[target_x - 1][target_y - 1])
+print(graph[target_x - 1][target_y - 1]) 
