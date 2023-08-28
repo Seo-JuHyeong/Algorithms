@@ -26,4 +26,4 @@ while(len(arr) >= 1):
         answer.insert(0, arr.pop())
         type = 1
 
-print(''.join(answer))
+print(''.join(answer)) 
