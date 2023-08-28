@@ -16,6 +16,6 @@ d = abs(y-x)
 if d > z:
     answer = -1
 else:
-    answer = max(x, y + (z-d) // 2)
+    answer = max(x, max(x, y) + (z-d) // 2)
 
 print(answer)
